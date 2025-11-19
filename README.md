@@ -7,7 +7,6 @@ To design and simulate a 4:1 Multiplexer (MUX) using Verilog HDL in four differe
 ## APPARATUS REQUIRED
 - **Vivado 2023.1**
 
-
 ## Procedure
 
 1. Open **Vivado 2023.1**.  
@@ -57,6 +56,7 @@ To design and simulate a 4:1 Multiplexer (MUX) using Verilog HDL in four differe
     or (Y, A_and, B_and, C_and, D_and);
  endmodule
 ```
+
 ### 4:1 MUX Gate-Level Implementation- Testbench
 ```verilog
 `timescale 1ns / 1ps
@@ -88,11 +88,13 @@ module mux4_to_1_tb;
 
 endmodule
 ```
+
 ## Simulated Output Gate Level Modelling
 
 <img width="1195" height="673" alt="Gate" src="https://github.com/user-attachments/assets/4b79f59b-1c65-42d3-9630-ea0e2783b83e" />
 
 ---
+
 ### 4:1 MUX Data flow Modelling
 ```verilog
 module MUL4_1_DATA (
@@ -112,6 +114,7 @@ module MUL4_1_DATA (
  
 
 ```
+
 ### 4:1 MUX Data flow Modelling- Testbench
 ```verilog
 `timescale 1ns / 1ps
@@ -144,11 +147,13 @@ module mux4_to_1_tb;
 endmodule
 
 ```
+
 ## Simulated Output Dataflow Modelling
 
 <img width="1349" height="757" alt="Data" src="https://github.com/user-attachments/assets/9291c320-9497-40b1-b910-12bb4cf185ff" />
 
 ---
+
 ### 4:1 MUX Behavioral Implementation
 ```verilog
  module MUX4_1_BEHAVIORAL(
